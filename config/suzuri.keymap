@@ -38,6 +38,9 @@
 };
 
 // トラックボールの設定(カスタマイズしたい場合は以下をコメントアウトして編集してください)
+&trackball {
+    compatible = "pixart,pmw3610-alt";
+};
  #include <input/processors.dtsi>  
  #include <dt-bindings/zmk/input_transform.h>  
  
